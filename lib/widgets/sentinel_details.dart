@@ -27,6 +27,9 @@ class SentinelDetails extends StatelessWidget {
               //TileBuilder('24 Hour Pass', AssetImage('icons_24hpass.png')),
               //TileBuilder('Projects', AssetImage('icons_list.png')),
           //),
+
+          // BROKEN :(
+
         ],
       ),
     );
