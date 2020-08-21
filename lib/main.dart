@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sentinel_redesign/views/student_home_view.dart';
+import 'package:sentinel_redesign/views/signin_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Helvetica Neue',
       ),
-      home: StudentHomeView(),
+      home: SignInView(), // change to SignInView() when auth completed
     );
   }
 }
