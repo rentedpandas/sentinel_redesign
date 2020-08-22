@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:sentinel_redesign/util/const.dart';
 
 class TileBuilder extends StatelessWidget {
-  final String iconName;
-  final AssetImage iconImage;
-  const TileBuilder(this.iconName, this.iconImage);
+  final String name;
+  final IconData icon;
+  const TileBuilder(this.name, this.icon);
 
 // Something is broken in here...
 
@@ -13,7 +14,7 @@ class TileBuilder extends StatelessWidget {
       height: 150,
       width: 150,
       child: Text(
-        iconName,
+        name,
         style: TextStyle(
           fontSize: 12,
           fontWeight: FontWeight.w500,
@@ -21,9 +22,9 @@ class TileBuilder extends StatelessWidget {
         ),
       ),
       decoration: BoxDecoration(
-        color: Color.fromARGB(255, 277, 41, 47),
-        image: new DecorationImage(image: iconImage),
+        color: sentinelRed,
       ),
+      // add some sort of children <Widget>[List] to call var icon
     );
   }
 }

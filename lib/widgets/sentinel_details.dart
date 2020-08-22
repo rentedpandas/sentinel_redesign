@@ -5,6 +5,7 @@ class SentinelDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    String firstName = 'Brian'; // get firstname from firebase, something like firebase.auth().currentUser.displayName
     return Container(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -14,22 +15,12 @@ class SentinelDetails extends StatelessWidget {
             height: 30,
           ),
           Text(
-            'THE SENTINEL APP.',
-            style: TextStyle(fontWeight: FontWeight.w800, height: 0.9, fontSize: 50),
+            'Welcome back, $firstName.',
+            style: TextStyle(fontWeight: FontWeight.w300, height: 0.9, fontSize: 50),
           ),
           SizedBox(
             height: 30,
           ),
-          //GridView.count(
-          //  crossAxisCount: 2,
-              //TileBuilder('Sign Out', AssetImage('icons_signout.png')),
-              //TileBuilder('Face Game', AssetImage('icons_facegame.png')),
-              //TileBuilder('24 Hour Pass', AssetImage('icons_24hpass.png')),
-              //TileBuilder('Projects', AssetImage('icons_list.png')),
-          //),
-
-          // BROKEN :(
-
         ],
       ),
     );
