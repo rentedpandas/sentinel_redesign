@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sentinel_redesign/util/router_const.dart';
 import 'package:sentinel_redesign/widgets/navigation/navigation_drawer_header.dart';
 import 'package:sentinel_redesign/widgets/navigation/navigation_drawer_item.dart';
 
@@ -18,9 +19,9 @@ class NavigationDrawer extends StatelessWidget {
       child: Column(
         children: <Widget>[
           NavigationDrawerHeader(),
-          DrawerItem('Tiles', Icons.school),
-          DrawerItem('About', Icons.person),
-          DrawerItem('Logout', Icons.lock),
+          DrawerItem('Tiles', Icons.school, TilesRoute),
+          DrawerItem('About', Icons.person, AboutRoute),
+          DrawerItem('Logout', Icons.lock, LogoutRoute),
         ],
       ),
     );

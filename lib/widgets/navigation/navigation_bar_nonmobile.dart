@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sentinel_redesign/util/router_const.dart';
 import 'package:sentinel_redesign/widgets/navigation/nav_icon.dart';
 import 'package:sentinel_redesign/widgets/navigation/nav_bar_item.dart';
 
@@ -16,15 +17,15 @@ class NavigationBarNonMobile extends StatelessWidget {
           Row(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              NavBarItem('Tiles'),
+              NavBarItem('Tiles', TilesRoute),
               SizedBox(
                 width: 60,
               ),
-              NavBarItem('About'),
+              NavBarItem('About', AboutRoute),
               SizedBox(
                 width: 60,
               ),
-              NavBarItem('Logout'),
+              NavBarItem('Logout', LogoutRoute),
             ],
           )
         ],

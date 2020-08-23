@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sentinel_redesign/views/student_home_view.dart';
+import 'package:sentinel_redesign/views/student/student_home_view.dart';
 
 class SignInView extends StatefulWidget {
   @override

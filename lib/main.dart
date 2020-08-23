@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:sentinel_redesign/util/locator.dart';
 import 'package:sentinel_redesign/views/signin_view.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  setuepLocator();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -13,7 +17,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Helvetica Neue',
       ),
-      home: SignInView(), // change to SignInView() when auth completed
+      home: SignInView(), // Lville uses firebase?
     );
   }
 }

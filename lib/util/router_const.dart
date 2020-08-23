@@ -1,0 +1,14 @@
+const String HomeRoute = "home";
+const String TilesRoute = "tiles";
+const String AboutRoute = "about";
+const String SignoutAppRoute = "signoutapp";
+const String DutyAppRoute = "dutyapp";
+const String FaceGameRoute = "facegame";
+const String FaceVoiceEditorRoute = "facevoiceeditor";
+const String TFHPassRoute = "24hpass";
+const String LQTriviaRoute = "lqtrivia";
+const String LQTriviaAdminRoute = "lqadmin";
+const String SchedulingSheetRoute = "schedulingsheet";
+const String ScreenInteractRoute = "screeninteract";
+const String AldoLeopoldMapRoute = "aldoleopoldmap";
+const String LogoutRoute = "logout";

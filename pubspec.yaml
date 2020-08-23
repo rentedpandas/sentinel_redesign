@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   responsive_builder: ^0.1.2
+  get_it:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -49,10 +50,6 @@ flutter:
   assets:
     - assets/sentinel.png
     - assets/google_logo.png
-    - assets/icons_24hpass.png
-    - assets/icons_facegame.png
-    - assets/icons_list.png
-    - assets/icons_signout.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
