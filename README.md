@@ -8,8 +8,6 @@ The redesign was made using the Flutter SDK, which uses the Dart programming lan
 
 Redesigned by Alen Alshinbayev '21 and Brian Tan '21.
 
-Original programming by Keith Voss.
-
 ## TODO
 
 Please view todo's in the [Issues](https://github.com/rentedpandas/sentinel_redesign/issues) tab.
